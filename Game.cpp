@@ -183,9 +183,9 @@ void Game::Render()
 	iArray[0] = 0;
 	iArray[1] = 1;
 	iArray[2] = 2;
-	vArray[0] = VertexPositionColor(Vector3(0.f, 0.5f, 0.5f),	Colors::Yellow);	
-	vArray[1] = VertexPositionColor(Vector3(-0.5f, -0.5f, 0.5f),Colors::Red);
-	vArray[2] = VertexPositionColor(Vector3(0.5f, -0.5f, 0.5f), Colors::Blue);
+	vArray[0] = VertexPositionColor(Vector3(0.f, 0.5f, 0.5f),	Colors::Magenta);	
+	vArray[1] = VertexPositionColor(Vector3(-0.5f, -0.5f, 0.5f),Colors::Yellow);
+	vArray[2] = VertexPositionColor(Vector3(0.5f, -0.5f, 0.5f), Colors::Cyan);
 
 				
 	//begin geometric object
